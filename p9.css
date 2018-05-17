@@ -1,0 +1,51 @@
+body{
+	background-color: #F5EEF8; 
+}
+
+.cr {
+  width: 50%;
+  height: 50%;
+  max-height: 50%;
+  margin: auto;
+}
+
+#im {
+	height: 24rem;
+}
+
+.nn{
+	top: 0px;
+	position: sticky;
+	background-color: #F9EBEA;
+	z-index: 1;
+}
+.p1{
+	height: 14rem;
+}
+
+#contact {
+  background-color: #F9EBEA;
+}
+
+#ok {
+  
+  width:100px;
+  height:100px;
+}
+.ok1{
+  font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+}
+.ok2{
+  float: left;
+}
+.ok3{
+  float: right;
+}
+@media screen and (max-width: 720px) {
+  .cr {
+  	width: 75%;
+  	height: 40%; 
+  }
+}
